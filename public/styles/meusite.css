@@ -7,22 +7,6 @@
 body {
   background-color: #1F1E1E;
   color: white;
-  overflow: hidden;
-}
-@media (max-width: 767px) and (min-width: 418px) {
-  body {
-    overflow: auto;
-  }
-}
-@media (max-width: 417px) and (min-width: 375px) {
-  body {
-    overflow: auto;
-  }
-}
-@media (max-width: 374px) and (min-width: 320px) {
-  body {
-    overflow: auto;
-  }
 }
 
 #container {

@@ -10,19 +10,6 @@
 body{
     background-color: variables.$primary-color;
     color: variables.$text;
-    overflow: hidden;
-    
-    @include mixins.mobile-lg{
-        overflow: auto;
-    }
-
-    @include mixins.mobile-md{
-        overflow: auto;
-    }
-
-    @include mixins.mobile-sm{
-        overflow: auto;
-    }
 }
 
 #container{
@@ -364,7 +351,7 @@ body{
                         justify-content: center;
 
                         @include mixins.mobile-lg{
-                            gap: 2.5em;    
+                            gap: 2.5em;   
                         }
 
                         @include mixins.mobile-md{
